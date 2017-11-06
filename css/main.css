@@ -1,0 +1,29 @@
+img {
+  width: 100%;
+}
+
+banner {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+#left_sidebar {
+    box-sizing: border-box;
+    width: 25%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
