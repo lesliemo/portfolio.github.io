@@ -29,10 +29,11 @@ header {
 }
 
 #sidebar {
-  background-color: #e9d6d8;
+  background-color: #FFCCCC;
   margin-right: 690 px;
   min-height:300px;
   min-width: 200px;
+
 }
 
 footer {
