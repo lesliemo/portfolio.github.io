@@ -29,7 +29,7 @@ header {
 }
 
 #sidebar {
-  $background-color: #E9D6D8;
+  background-color: #E9D6D8;
   margin-right: 690 px;
   min-height:300px;
   min-width: 200px;
