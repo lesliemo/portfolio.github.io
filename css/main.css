@@ -21,10 +21,11 @@ header {
 }
 
 #column1 {
-  background-color: #009;
+  background-color: #fff;
   width: 690px;
   float: right;
   min-height:300px;
+  font-family: Helvetica;
 }
 
 #sidebar {
@@ -60,34 +61,15 @@ img {
     color: white;
 }
 
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#content {
-    box-sizing: border-box;
-    width: 75%;
-    height: auto;
-    
-}
-
-.content_container {
-    position: relative;
-    text-align: center;
-    color: black;
-}
-
-.top-right {
-    position: static;
-    box-sizing: border-box;
-    float: right;
-
+table {
+  border-spacing: 15px;
 }
 
 td {
   padding:15px;
+
+}
+
+tr {
+  width:80%;
 }
