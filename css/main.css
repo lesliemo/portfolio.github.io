@@ -1,8 +1,48 @@
+
+     * {
+  margin:0;
+  padding:0;
+}
+
+#container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+header {
+  background-color:red;
+  min-height:80px;
+}
+
+#main {
+  background-color:yellow;
+  min-height:300px;
+  overflow: hidden;
+}
+
+#column1 {
+  background-color: #009;
+  width: 690px;
+  float: right;
+  min-height:300px;
+}
+
+#sidebar {
+  background-color: #e9d6d8;
+  margin-right: 690 px;
+  min-height:300px;
+  min-width: 200px;
+}
+
+footer {
+  background-color: green;
+  min-height:60px;
+  
 img {
   width: 100%;
 }
 
-banner {
+#hero {
     box-sizing: border-box;
     width: 100%;
     height: auto;
@@ -26,4 +66,28 @@ banner {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#content {
+    box-sizing: border-box;
+    width: 75%;
+    height: auto;
+    
+}
+
+.content_container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.top-right {
+    position: static;
+    box-sizing: border-box;
+    float: right;
+
+}
+
+td {
+  padding:15px;
 }
