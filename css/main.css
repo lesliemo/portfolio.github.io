@@ -49,12 +49,6 @@ img {
     height: auto;
 }
 
-#left_sidebar {
-    box-sizing: border-box;
-    width: 25%;
-    height: auto;
-}
-
 .container {
     position: relative;
     text-align: center;
