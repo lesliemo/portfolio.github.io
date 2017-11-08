@@ -46,7 +46,6 @@ header {
 
 #main {
   min-height:300px;
- display: table;
   overflow: hidden;
 }
 
