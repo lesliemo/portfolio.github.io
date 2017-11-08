@@ -1,36 +1,4 @@
-/* iphone */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
-/* android */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* ipad */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-/* android tablet */
-@media 
-  (min-device-width: 800px) 
-  and (max-device-width: 1280px) {
-
-}
-
-/* desktop css */
-     * {
+  * {
   margin:0;
   padding:0;
 }
@@ -99,3 +67,37 @@ td {
 tr {
   width:80%;
 }
+
+/* iphone */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* android */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+  
+  
+/* media queries below */
+  
+/* ipad */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* android tablet */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}  
