@@ -15,6 +15,7 @@ header {
 #main {
   min-height:300px;
   overflow: hidden;
+  display: flex;
 
 }
 
@@ -27,7 +28,6 @@ header {
 #column1 {
   background-color: #fff;
   max-width: 690px;
-  float: right;
   min-height:300px;
   font-family: Helvetica;
 
@@ -41,6 +41,7 @@ header {
   background-color: #E9D6D8;
   width: 25%;
   float: left;
+
 }
 
 footer {
@@ -82,13 +83,14 @@ tr {
  
  
  /* MEDIA QUERIES */
+ 
 
 /* iphone */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-#sidebar {   float: inherit; }
+   
 }
 
 /* android */
@@ -96,7 +98,7 @@ tr {
   and (device-width: 320px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
-
+   
 }
   
 /* ipad */
@@ -104,12 +106,12 @@ tr {
   and (device-width: 320px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
-
+   
 }
 
 /* android tablet */
 @media 
   (min-device-width: 800px) 
   and (max-device-width: 1280px) {
-
+   
 }  
