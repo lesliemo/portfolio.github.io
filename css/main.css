@@ -47,7 +47,7 @@ header {
 #main {
   min-height:300px;
   overflow: hidden;
-  display: table;
+
 }
 
 #column1 {
@@ -56,7 +56,7 @@ header {
   float: right;
   min-height:300px;
   font-family: Helvetica;
-  display: table-cell;
+
 }
 
 #sidebar {
@@ -65,7 +65,8 @@ header {
   min-width: 200px;
   padding: 20px;
   background-color: #E9D6D8;
-  display: table-cell;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
 
 
 }
