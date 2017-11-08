@@ -18,9 +18,15 @@ header {
 
 }
 
+#main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 #column1 {
   background-color: #fff;
-  width: 690px;
+  max-width: 690px;
   float: right;
   min-height:300px;
   font-family: Helvetica;
@@ -33,7 +39,8 @@ header {
   min-width: 200px;
   padding: 20px;
   background-color: #E9D6D8;
-
+  width: 25%;
+  float: left;
 }
 
 footer {
@@ -68,12 +75,20 @@ tr {
   width:80%;
 }
 
+#clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+ 
+ 
+ /* MEDIA QUERIES */
+
 /* iphone */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-
+#sidebar {   float: inherit; }
 }
 
 /* android */
@@ -83,9 +98,6 @@ tr {
   and (-webkit-device-pixel-ratio: 2) {
 
 }
-  
-  
-/* media queries below */
   
 /* ipad */
 @media screen 
