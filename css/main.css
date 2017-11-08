@@ -46,8 +46,8 @@ header {
 
 #main {
   min-height:300px;
+  display: block;
   overflow: hidden;
-  background-color: #E9D6D8;
 }
 
 #column1 {
@@ -63,6 +63,7 @@ header {
   min-height:300px;
   min-width: 200px;
   padding: 20px;
+  background-color: #E9D6D8;
 
 }
 
