@@ -46,7 +46,7 @@ header {
 
 #main {
   min-height:300px;
-  display: block;
+ display: table;
   overflow: hidden;
 }
 
@@ -64,6 +64,7 @@ header {
   min-width: 200px;
   padding: 20px;
   background-color: #E9D6D8;
+  display: table-cell;
 
 }
 
